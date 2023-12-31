@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Hobby</title>
+    <link href="static/css/top_menu.css" rel="stylesheet"/>
+    <link href="static/css/global.css" rel="stylesheet"/>
+    <link href="static/css/arduino.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="top_menu">
+        <div class="container">
+            <div class="brand">
+                <a>Arduino</a>
+            </div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="#">Микроконтроллеры</a>
+                <a href="about.html">Обо мне</a>
+            </nav>
+        </div>
+    </div>
+    <div id="main-content">
+        <div class="container">
+            <div class="micro">
+                <img src="static/img/mikro.jpg"/>
+                <p>
+                    <b>Микроконтро́ллер</b> (англ. Micro Controller Unit, MCU) — микросхема,
+                    предназначенная для управления электронными устройствами.
+                </p>
+            </div>
+            <p>
+                Для вхождения в эту сферу я решил выбрать Arduino. Причиной этому стал достаточно низкий порог вхождения,
+                т.ж. контроллеры на платформе Arduino имеют всю необходимую обвязку, что сильно облегчает конструирование
+                схем.
+                <br>
+                Похвастаться достижениями пока не могу. Многие проекты были остановлены на этапе прототипа,
+                и в дальнейшем разобраны.
+                Пока самый крупный и сложный проект - это паяльный фен, на данный момент он собран в макетном виде,
+                но планирую в ближайшее время собрать его на печатной плате и после тонкой настройки его работы предстоит сборка в корпус.
+            </p>
+            <div class="arduino">
+                <img src="static/img/arduino_logo.png"/>
+                <p>
+                    <b>Arduino</b> — торговая марка аппаратно-программных средств построения и прототипирования простых систем,
+                    моделей и экспериментов в области электроники, автоматики, автоматизации процессов и робототехники.
+                </p>
+                <p>
+                    Язык программирования Arduino называется <i>Arduino C</i> и представляет собой язык C++
+                    с фреймворком Wiring, он имеет некоторые отличия по части написания кода,
+                    который компилируется и собирается с помощью avr-gcc, с особенностями,
+                    облегчающими написание работающей программы — имеется набор библиотек, включающий в себя функции и объекты.
+                    При компиляции программы IDE создает временный файл с расширением *.cpp.
+                </p>
+            </div>
+            <div class="examples">
+                <h4>Пара примеров законченных проектов на Arduino, выполненных не мной.</h4>
+                <p>Огненный Светильник, на первом фото можно увидеть плату Arduino Nano</p>
+                <div class="photo">
+                    <img src="static/img/firelamp-1.jpg"/>
+                    <img src="static/img/firelamp-2.jpg"/>
+                    <img src="static/img/firelamp-4.jpg"/>
+                </div>
+                <p>Часы На ГРИ</p>
+                <div class="photo">
+                    <img class="double" src="static/img/clockWide.jpg"/>
+                    <img src="static/img/leds2.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

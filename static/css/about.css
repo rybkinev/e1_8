@@ -1,0 +1,7 @@
+#main-content .container {
+    text-align: center;
+    display: block;
+}
+#main-content .container img {
+    float: left;
+}

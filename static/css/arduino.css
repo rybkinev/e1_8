@@ -1,0 +1,46 @@
+#main-content .container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*#main-content .container img {*/
+/*    margin-right: 3vw;*/
+/*    margin-bottom: 3vh;*/
+
+/*    display:block;*/
+/*	width:20vw;*/
+/*	height:auto;*/
+/*}*/
+
+/*#main-content .container p {*/
+/*    margin-bottom: 3vh;*/
+/*    text-indent: 3rem;*/
+/*}*/
+
+#main-content .container > .micro > img {
+    float: left;
+}
+#main-content .container > .arduino > img {
+    float: right;
+}
+
+#main-content .container > .micro {
+    display: block;
+}
+
+#main-content .container > .arduino {
+    display: block;
+}
+
+#main-content .container .examples p {
+    text-indent: 0;
+}
+
+#main-content .container .examples .photo {
+    display: flex;
+    flex-direction: row;
+}
+
+#main-content .container .examples .photo .double {
+    flex-grow: 2;
+}

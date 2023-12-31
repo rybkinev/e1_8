@@ -1,0 +1,22 @@
+img {
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+
+    display:block;
+	width:20vw;
+	height:auto;
+    float: left;
+}
+
+#main-content .new_year h4 {
+    text-align: left;
+}
+
+#main-content .new_year p {
+    text-indent: 0;
+}
+
+#main-content .container {
+    text-align: center;
+    display:block;
+}
